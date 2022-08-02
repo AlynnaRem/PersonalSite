@@ -64,14 +64,13 @@ header {
     background-color: white;
     transition: 0.5s;
     margin: 30px;
-    width: 60%;
+    width: 50%;
     display: grid;
     align-content: center;
     justify-content: center;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     grid-area: auto;
-    margin-left: 20%;
-
+    margin-left: 25%;
 }
 
 .container:hover {
@@ -80,6 +79,17 @@ header {
 
 .main-section {
     width: 100%;
+}
+
+.Qualifications {
+    background-color:#D9D3C1;
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 70%;
+    text-align: center;
+    margin-left: 25%;
+    margin-bottom: 5%;
 }
 
 
@@ -121,16 +131,16 @@ button:hover {
 
 .main-section img {
     margin: 5%;
-    width: 90%;
+    width: 100%;
     height: auto;
 
 }
 
 .Brief_Intro {
-    padding-top: 20%;
     display: inline-block;
-    margin: 5%;
-    padding-left: 10px;
+    margin: 0 5%;
+    padding-top: 15%;
+    padding-left: 30px;
     padding-right: 10px;
 
 }
@@ -160,7 +170,7 @@ figure {
 figcaption {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 100;
     padding: 20px;
 }
 
